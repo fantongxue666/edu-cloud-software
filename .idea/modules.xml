@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/edu-cloud-eureka/edu.iml" filepath="$PROJECT_DIR$/edu-cloud-eureka/edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-cloud-config-server/config-server.iml" filepath="$PROJECT_DIR$/edu-cloud-config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/educational_software.iml" filepath="$PROJECT_DIR$/.idea/educational_software.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-cloud-eureka/eureka.iml" filepath="$PROJECT_DIR$/edu-cloud-eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-cloud-power/power.iml" filepath="$PROJECT_DIR$/edu-cloud-power/power.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-cloud-test/test.iml" filepath="$PROJECT_DIR$/edu-cloud-test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-cloud-zuul/zuul.iml" filepath="$PROJECT_DIR$/edu-cloud-zuul/zuul.iml" />
     </modules>
   </component>
 </project>

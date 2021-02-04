@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="edu" />
+        <module name="config-server" />
+        <module name="eureka" />
         <module name="power" />
         <module name="test" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="edu" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka" target="1.8" />
       <module name="power" target="1.8" />
       <module name="rain" target="1.8" />
       <module name="test" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

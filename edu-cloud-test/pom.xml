@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ftx</groupId>
-    <artifactId>edu</artifactId>
+    <artifactId>test</artifactId>
     <version>1.0</version>
-    <name>edu</name>
+    <name>test</name>
     <description>power服务</description>
     <properties>
         <java.version>1.8</java.version>

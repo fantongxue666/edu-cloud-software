@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/edu-cloud-test/pom.xml" />
         <option value="$PROJECT_DIR$/edu-cloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/edu-cloud-power/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-cloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-cloud-config-server/pom.xml" />
       </list>
     </option>
   </component>
