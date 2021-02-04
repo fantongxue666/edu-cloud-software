@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/edu-eureka/edu.iml" filepath="$PROJECT_DIR$/edu-eureka/edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/educational_software.iml" filepath="$PROJECT_DIR$/.idea/educational_software.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-rain/rain.iml" filepath="$PROJECT_DIR$/edu-rain/rain.iml" />
+    </modules>
+  </component>
+</project>
