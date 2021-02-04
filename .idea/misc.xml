@@ -7,7 +7,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/edu-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-rain/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-power/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-cloud-test/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-cloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-cloud-power/pom.xml" />
       </list>
     </option>
   </component>
