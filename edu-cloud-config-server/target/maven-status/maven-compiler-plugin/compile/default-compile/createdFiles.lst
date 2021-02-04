@@ -1,3 +1,1 @@
-com\ftx\test\controller\TestInterface.class
-com\ftx\test\controller\PowerController.class
-com\ftx\test\TestApplication.class
+com\ftx\configserver\ConfigServerApplication.class
