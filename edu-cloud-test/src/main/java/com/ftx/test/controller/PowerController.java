@@ -17,7 +17,7 @@ public class PowerController {
         return string;
     }
 
-    @Value("${user.name}")
+    @Value("${edu}")
     String foo;
     @RequestMapping(value = "/hi")
     public String hi(){
