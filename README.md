@@ -11,3 +11,5 @@
 - [edu-cloud-test]()：服务（测试专用）
 - [edu-cloud-zuul]()：服务网关（路由转发，监控，过滤）
 - [edu-cloud-config-server]()：分布式配置中心（方便服务配置文件统一管理，实时更新，配置文件置于Git仓库）
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210205151243710.png)
