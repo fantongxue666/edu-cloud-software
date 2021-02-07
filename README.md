@@ -7,9 +7,11 @@
 
 **各个服务说明**
 - [edu-cloud-eureka]()：服务注册中心（eureka）
-- [edu-cloud-power]()：服务（角色和权限）
-- [edu-cloud-test]()：服务（测试专用）
+- [edu-cloud-power]()：服务（测试专用1）
+- [edu-cloud-test]()：服务（测试专用2）
+- [edu-cloud-rain]()：服务（为后台管理系统提供所有接口）
 - [edu-cloud-zuul]()：服务网关（路由转发，监控，过滤）
 - [edu-cloud-config-server]()：分布式配置中心（方便服务配置文件统一管理，实时更新，配置文件置于Git仓库）
 - [edu-weixin]()：微信小程序（用户端）
+- [edu-vue-forward]()：后台管理系统（管理员端）
 

@@ -9,6 +9,7 @@
         <module name="config-server" />
         <module name="eureka" />
         <module name="power" />
+        <module name="rain" />
         <module name="test" />
         <module name="zuul" />
       </profile>

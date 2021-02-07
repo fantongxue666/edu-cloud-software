@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/educational_software.iml" filepath="$PROJECT_DIR$/.idea/educational_software.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-cloud-eureka/eureka.iml" filepath="$PROJECT_DIR$/edu-cloud-eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-cloud-power/power.iml" filepath="$PROJECT_DIR$/edu-cloud-power/power.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-cloud-rain/rain.iml" filepath="$PROJECT_DIR$/edu-cloud-rain/rain.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-cloud-test/test.iml" filepath="$PROJECT_DIR$/edu-cloud-test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-cloud-zuul/zuul.iml" filepath="$PROJECT_DIR$/edu-cloud-zuul/zuul.iml" />
     </modules>

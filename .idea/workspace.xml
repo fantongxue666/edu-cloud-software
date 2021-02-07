@@ -309,6 +309,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ftx.RainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ftx.test.TestApplication" />
@@ -329,6 +336,7 @@
       <item itemvalue="Spring Boot.ZuulApplication (1)" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication (1)" />
+      <item itemvalue="Spring Boot.RainApplication" />
     </list>
     <recent_temporary>
       <list>

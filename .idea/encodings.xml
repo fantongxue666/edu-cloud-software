@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/edu-cloud-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/edu-cloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/edu-cloud-power" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-cloud-rain" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/edu-cloud-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/edu-cloud-zuul" charset="UTF-8" />
   </component>

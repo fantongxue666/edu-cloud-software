@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/edu-cloud-eureka/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/edu-cloud-eureka/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/edu-cloud-rain/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/edu-cloud-rain/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
