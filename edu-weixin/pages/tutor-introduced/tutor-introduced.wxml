@@ -1,1 +1,28 @@
-<view class="container data-v-199e14be"><view class="tutor data-v-199e14be"><view class="tutor-title data-v-199e14be"><block wx:for="{{kechengList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="tutor-title-item data-v-199e14be"><view data-event-opts="{{[['tap',[['tutorchange',[index]]]]]}}" class="{{['data-v-199e14be',(btnnum==index)?'btna':'']}}" bindtap="__e">{{item}}</view><text class="{{['data-v-199e14be',(btnnum==index)?'_underline':'']}}"></text></view></block></view><view class="tutor-content data-v-199e14be"><view class="{{['dsjs data-v-199e14be',(btnnum==0)?'dis':'']}}"><u-parse vue-id="6c078cc0-1" content="{{tinfo.introduce}}" class="data-v-199e14be" bind:__l="__l"></u-parse></view><view class="{{['works data-v-199e14be',(btnnum==1)?'dis':'']}}"><block wx:for="{{worksList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['goCourseDetails',['$0'],[[['worksList','',index,'id']]]]]]]}}" class="works-list data-v-199e14be" bindtap="__e"><view class="works-list-left data-v-199e14be"><text class="data-v-199e14be">{{item.menuname}}</text><text class="data-v-199e14be">{{item.jianjie}}</text><view class="keshi data-v-199e14be"><image src="../../static/book.png" mode="aspectFit" class="data-v-199e14be"></image><text class="data-v-199e14be">{{item.ksnum+"课时"}}</text></view></view><image class="works-list-right data-v-199e14be" src="{{HOST_URL+item.thumb}}" mode="aspectFit"></image></view></block></view></view></view></view>
+<view class="container data-v-199e14be">
+	<view class="tutor data-v-199e14be">
+		<view class="tutor-title data-v-199e14be">
+			<block wx:for="{{kechengList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+				<view class="tutor-title-item data-v-199e14be">
+					<view data-event-opts="{{[['tap',[['tutorchange',[index]]]]]}}" class="{{['data-v-199e14be',(btnnum==index)?'btna':'']}}" bindtap="__e">{{item}}</view><text class="{{['data-v-199e14be',(btnnum==index)?'_underline':'']}}"></text>
+				</view>
+			</block>
+		</view>
+		<view class="tutor-content data-v-199e14be">
+			<view class="{{['dsjs data-v-199e14be',(btnnum==0)?'dis':'']}}">
+				<u-parse vue-id="6c078cc0-1" content="{{tinfo.introduce}}" class="data-v-199e14be" bind:__l="__l"></u-parse>
+			</view>
+			<view class="{{['works data-v-199e14be',(btnnum==1)?'dis':'']}}">
+				<block wx:for="{{worksList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+					<view data-event-opts="{{[['tap',[['goCourseDetails',['$0'],[[['worksList','',index,'id']]]]]]]}}" class="works-list data-v-199e14be" bindtap="__e">
+						<view class="works-list-left data-v-199e14be"><text class="data-v-199e14be">{{item.menuname}}</text><text class="data-v-199e14be">{{item.jianjie}}</text>
+							<view class="keshi data-v-199e14be">
+								<image src="../../static/book.png" mode="aspectFit" class="data-v-199e14be"></image><text class="data-v-199e14be">{{item.ksnum+"课时"}}</text>
+							</view>
+						</view>
+						<image class="works-list-right data-v-199e14be" src="{{HOST_URL+item.thumb}}" mode="aspectFit"></image>
+					</view>
+				</block>
+			</view>
+		</view>
+	</view>
+</view>

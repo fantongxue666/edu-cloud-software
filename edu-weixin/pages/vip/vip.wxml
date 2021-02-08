@@ -1,1 +1,33 @@
-<view class="container data-v-4a479e03"><view class="vip-title data-v-4a479e03"><view class="vip-title-info data-v-4a479e03"><view class="photo data-v-4a479e03"><image class="avatar data-v-4a479e03" src="{{userinfo.avatar?userinfo.avatar:'../../static/user-photo.png'}}" mode="aspectFit"></image><block wx:if="{{isvip}}"><image class="viplogo data-v-4a479e03" src="../../static/user-vip.png" mode="aspectFit"></image></block></view><view class="name data-v-4a479e03"><view class="nickname data-v-4a479e03"><text class="data-v-4a479e03">{{userinfo.nickname}}</text><block wx:if="{{isvip}}"><text style="margin-left:20rpx;font-size:25rpx;color:#b57400;" class="data-v-4a479e03">{{"("+vipinfo.viptype+")"}}</text></block></view><block wx:if="{{isvip}}"><view class="vipinfo data-v-4a479e03"><text class="data-v-4a479e03">{{"到期时间："+vipinfo.dqtime}}</text></view></block><view class="data-v-4a479e03">可享受全场音频视频免费观看收听<image src="../../static/heijiantou.png" mode="aspectFit" class="data-v-4a479e03"></image></view></view></view></view><view class="mode data-v-4a479e03"><view class="mode-one data-v-4a479e03"><view class="mode-one-top data-v-4a479e03"><text class="data-v-4a479e03">请选择会员套餐</text></view><view class="mode-one-center data-v-4a479e03"><block wx:for="{{vipList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['chooseVip',[index,'$0'],[[['vipList','',index,'id']]]]]]]}}" class="{{['vip-list data-v-4a479e03',(addBorder===index)?'newviplist':'']}}" bindtap="__e"><text class="data-v-4a479e03">{{item.name}}</text><text class="data-v-4a479e03"><text class="data-v-4a479e03">￥</text>{{item.price}}</text><text class="data-v-4a479e03">{{"原价￥"+item.bfprice}}</text></view></block></view><view class="mode-one-bottom data-v-4a479e03"><text data-event-opts="{{[['tap',[['goPay',['$0'],['vipid']]]]]}}" bindtap="__e" class="data-v-4a479e03">立即购买</text></view></view></view></view>
+<view class="container data-v-4a479e03">
+	<view class="vip-title data-v-4a479e03">
+		<view class="vip-title-info data-v-4a479e03">
+			<view class="photo data-v-4a479e03">
+				<image class="avatar data-v-4a479e03" src="{{userinfo.avatar?userinfo.avatar:'../../static/user-photo.png'}}" mode="aspectFit"></image>
+				<block wx:if="{{isvip}}">
+					<image class="viplogo data-v-4a479e03" src="../../static/user-vip.png" mode="aspectFit"></image>
+				</block>
+			</view>
+			<view class="name data-v-4a479e03">
+				<view class="nickname data-v-4a479e03"><text class="data-v-4a479e03">{{userinfo.nickname}}</text>
+					<block wx:if="{{isvip}}"><text style="margin-left:20rpx;font-size:25rpx;color:#b57400;" class="data-v-4a479e03">{{"("+vipinfo.viptype+")"}}</text></block>
+				</view>
+				<block wx:if="{{isvip}}">
+					<view class="vipinfo data-v-4a479e03"><text class="data-v-4a479e03">{{"到期时间："+vipinfo.dqtime}}</text></view>
+				</block>
+				<view class="data-v-4a479e03">可享受全场音频视频免费观看收听<image src="../../static/heijiantou.png" mode="aspectFit" class="data-v-4a479e03"></image>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="mode data-v-4a479e03">
+		<view class="mode-one data-v-4a479e03">
+			<view class="mode-one-top data-v-4a479e03"><text class="data-v-4a479e03">请选择会员套餐</text></view>
+			<view class="mode-one-center data-v-4a479e03">
+				<block wx:for="{{vipList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+					<view data-event-opts="{{[['tap',[['chooseVip',[index,'$0'],[[['vipList','',index,'id']]]]]]]}}" class="{{['vip-list data-v-4a479e03',(addBorder===index)?'newviplist':'']}}" bindtap="__e"><text class="data-v-4a479e03">{{item.name}}</text><text class="data-v-4a479e03"><text class="data-v-4a479e03">￥</text>{{item.price}}</text><text class="data-v-4a479e03">{{"原价￥"+item.bfprice}}</text></view>
+				</block>
+			</view>
+			<view class="mode-one-bottom data-v-4a479e03"><text data-event-opts="{{[['tap',[['goPay',['$0'],['vipid']]]]]}}" bindtap="__e" class="data-v-4a479e03">立即购买</text></view>
+		</view>
+	</view>
+</view>

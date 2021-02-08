@@ -1,1 +1,32 @@
-<view class="container data-v-0d54f07a"><view class="beijing data-v-0d54f07a"><image src="../../static/user-beijing.png" mode class="data-v-0d54f07a"></image><view class="info data-v-0d54f07a"><image src="{{userinfo.avatar}}" mode class="data-v-0d54f07a"></image><text class="data-v-0d54f07a">{{userinfo.nickname}}</text></view></view><view class="learntime data-v-0d54f07a"><view class="learntime-top data-v-0d54f07a"><text class="data-v-0d54f07a">累计学习时长</text></view><view class="learntime-bottom data-v-0d54f07a"><view class="learntime-bottom-list data-v-0d54f07a"><view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">累计学习视频</text><text class="data-v-0d54f07a">{{sumVtime}}</text></view><view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">累计学习音频</text><text class="data-v-0d54f07a">{{sumAtime}}</text></view><view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">累计学习图文</text><text class="data-v-0d54f07a">{{sumTutime}}</text></view></view></view><view class="learntime-top data-v-0d54f07a"><text class="data-v-0d54f07a">今日学习时长</text></view><view class="learntime-bottom data-v-0d54f07a"><view class="learntime-bottom-list data-v-0d54f07a"><view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">今日学习视频</text><text class="data-v-0d54f07a">{{Vtime}}</text></view><view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">今日学习音频</text><text class="data-v-0d54f07a">{{Atime}}</text></view><view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">今日学习图文</text><text class="data-v-0d54f07a">{{Tutime}}</text></view></view></view></view><view class="jifen data-v-0d54f07a"><view class="item-box data-v-0d54f07a"><text class="data-v-0d54f07a">今天共学习</text><text class="data-v-0d54f07a">{{todayTotal}}</text></view><view class="item-box data-v-0d54f07a"><text class="data-v-0d54f07a">今天已兑换</text><text class="data-v-0d54f07a">{{ydh_score+"积分"}}</text></view></view><view class="tips data-v-0d54f07a">{{"温馨提示：每学习"+study_minute+"分钟可以兑换"+dh_score+"积分"}}</view><view class="tips data-v-0d54f07a">{{"当前可兑换积分："+can_dh_score}}</view><button class="ljdh data-v-0d54f07a" type="primary" data-event-opts="{{[['tap',[['ljdh',['$event']]]]]}}" bindtap="__e">立即兑换</button></view>
+<view class="container data-v-0d54f07a">
+	<view class="beijing data-v-0d54f07a">
+		<image src="../../static/user-beijing.png" mode class="data-v-0d54f07a"></image>
+		<view class="info data-v-0d54f07a">
+			<image src="{{userinfo.avatar}}" mode class="data-v-0d54f07a"></image><text class="data-v-0d54f07a">{{userinfo.nickname}}</text>
+		</view>
+	</view>
+	<view class="learntime data-v-0d54f07a">
+		<view class="learntime-top data-v-0d54f07a"><text class="data-v-0d54f07a">累计学习时长</text></view>
+		<view class="learntime-bottom data-v-0d54f07a">
+			<view class="learntime-bottom-list data-v-0d54f07a">
+				<view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">累计学习视频</text><text class="data-v-0d54f07a">{{sumVtime}}</text></view>
+				<view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">累计学习音频</text><text class="data-v-0d54f07a">{{sumAtime}}</text></view>
+				<view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">累计学习图文</text><text class="data-v-0d54f07a">{{sumTutime}}</text></view>
+			</view>
+		</view>
+		<view class="learntime-top data-v-0d54f07a"><text class="data-v-0d54f07a">今日学习时长</text></view>
+		<view class="learntime-bottom data-v-0d54f07a">
+			<view class="learntime-bottom-list data-v-0d54f07a">
+				<view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">今日学习视频</text><text class="data-v-0d54f07a">{{Vtime}}</text></view>
+				<view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">今日学习音频</text><text class="data-v-0d54f07a">{{Atime}}</text></view>
+				<view class="item data-v-0d54f07a"><text class="data-v-0d54f07a">今日学习图文</text><text class="data-v-0d54f07a">{{Tutime}}</text></view>
+			</view>
+		</view>
+	</view>
+	<view class="jifen data-v-0d54f07a">
+		<view class="item-box data-v-0d54f07a"><text class="data-v-0d54f07a">今天共学习</text><text class="data-v-0d54f07a">{{todayTotal}}</text></view>
+		<view class="item-box data-v-0d54f07a"><text class="data-v-0d54f07a">今天已兑换</text><text class="data-v-0d54f07a">{{ydh_score+"积分"}}</text></view>
+	</view>
+	<view class="tips data-v-0d54f07a">{{"温馨提示：每学习"+study_minute+"分钟可以兑换"+dh_score+"积分"}}</view>
+	<view class="tips data-v-0d54f07a">{{"当前可兑换积分："+can_dh_score}}</view><button class="ljdh data-v-0d54f07a" type="primary" data-event-opts="{{[['tap',[['ljdh',['$event']]]]]}}" bindtap="__e">立即兑换</button>
+</view>

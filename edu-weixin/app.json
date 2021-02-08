@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/guide/guide",
     "pages/index/index",
     "pages/vip/vip",
     "pages/user/user",

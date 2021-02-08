@@ -1,1 +1,12 @@
-<view class="container data-v-71828cc7"><view class="tutor-title data-v-71828cc7"><image src="../../static/jiangshi.png" mode="aspectFit" class="data-v-71828cc7"></image><text class="data-v-71828cc7">导师团队</text></view><view class="tutor-list data-v-71828cc7"><block wx:for="{{tutorList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view data-event-opts="{{[['tap',[['goTutorIntroduced',['tutor-introduced','$0'],[[['tutorList','id',item.id,'id']]]]]]]}}" class="tutor-list-item data-v-71828cc7" bindtap="__e"><image src="{{HOST_URL+item.img}}" mode="aspectFit" class="data-v-71828cc7"></image><text class="data-v-71828cc7">{{item.imgname}}</text></view></block></view></view>
+<view class="container data-v-71828cc7">
+	<view class="tutor-title data-v-71828cc7">
+		<image src="../../static/jiangshi.png" mode="aspectFit" class="data-v-71828cc7"></image><text class="data-v-71828cc7">导师团队</text>
+	</view>
+	<view class="tutor-list data-v-71828cc7">
+		<block wx:for="{{tutorList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id">
+			<view data-event-opts="{{[['tap',[['goTutorIntroduced',['tutor-introduced','$0'],[[['tutorList','id',item.id,'id']]]]]]]}}" class="tutor-list-item data-v-71828cc7" bindtap="__e">
+				<image src="{{HOST_URL+item.img}}" mode="aspectFit" class="data-v-71828cc7"></image><text class="data-v-71828cc7">{{item.imgname}}</text>
+			</view>
+		</block>
+	</view>
+</view>

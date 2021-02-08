@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="414cd2d8-3b14-44d2-a6fe-2a26edd3cd6c" name="Default Changelist" comment="" />
+    <list default="true" id="414cd2d8-3b14-44d2-a6fe-2a26edd3cd6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../edu-cloud-config-server/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../edu-cloud-power/src/main/java/com/ftx/power/dao/PowerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../edu-cloud-power/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../edu-cloud-test/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../edu-cloud-zuul/src/main/resources/rebel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-config-server/target/classes/com/ftx/configserver/ConfigServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/edu-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/edu-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/edu-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/edu-1.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-power/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-power/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-power/src/main/java/com/ftx/power/controller/PowerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-power/src/main/java/com/ftx/power/controller/PowerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-power/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-power/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-power/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-power/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-power/target/classes/com/ftx/power/controller/PowerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-power/target/classes/com/ftx/power/controller/PowerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-rain/target/classes/com/ftx/RainApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-rain/target/classes/com/ftx/config/AutoCodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-rain/target/classes/com/ftx/config/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-rain/target/classes/com/ftx/config/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-rain/target/classes/com/ftx/config/JavaKind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-rain/target/classes/com/ftx/constant/APPEnums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-rain/target/classes/com/ftx/constant/GlobalSwagger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-rain/target/classes/com/ftx/constant/JsonObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-weixin/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-weixin/project.config.json" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +58,32 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1916225428">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="220">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,69 +106,71 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="edu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="edu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1935" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="edu-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edu-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-cloud-eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="edu-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edu-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-cloud-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="edu-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edu-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edu-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-cloud-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="edu-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edu-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-cloud-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edu-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edu-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612422507657" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612776617534" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../edu-cloud-zuul" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -149,6 +190,15 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ftx.edu.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -160,46 +210,52 @@
       <option name="presentableId" value="Default" />
       <updated>1612422355051</updated>
       <workItem from="1612422359360" duration="193000" />
+      <workItem from="1612776487162" duration="155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193000" />
+    <option name="totallyTimeSpent" value="348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Statistic" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="JRebel Executor" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="BPMNPalette" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Statistic" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,21 +265,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="220">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
 </project>

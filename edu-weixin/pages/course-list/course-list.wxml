@@ -1,1 +1,48 @@
-<block wx:if="{{!nodata}}"><view class="container data-v-73345096"><view class="allcourse data-v-73345096"><image src="../../static/kechengtuijian.png" mode="aspectFit" class="data-v-73345096"></image></view><view class="course data-v-73345096"><view class="course-list data-v-73345096"><block wx:for="{{courseList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['navigate',['$0','$1'],[[['courseList','',index,'id']],[['courseList','',index,'media']]]]]]]}}" class="course-list-item data-v-73345096" bindtap="__e"><image src="{{HOST_URL+item.thumb}}" mode="aspectFit" class="data-v-73345096"></image><text class="data-v-73345096">{{item.menuname?item.menuname:item.zbtitle}}</text><text class="data-v-73345096">{{item.jianjie?item.jianjie:item.zbjianjie}}</text><view class="item-bottom data-v-73345096"><block wx:if="{{item.media==='audio'||item.media==='video'}}"><view class="item-bottom-left data-v-73345096"><image src="../../static/book.png" mode="aspectFit" class="data-v-73345096"></image><text class="data-v-73345096">{{item.ksnum+"课时"}}</text></view></block><view class="item-bottom-right data-v-73345096"><text class="data-v-73345096">{{"￥"+item.price}}</text></view></view><block wx:if="{{item.media==='live'}}"><view class="icon _div data-v-73345096">直播</view></block><block wx:else><block wx:if="{{item.media==='audio'}}"><view class="icon _div data-v-73345096">音频</view></block><block wx:else><block wx:if="{{item.media==='video'}}"><view class="icon _div data-v-73345096">视频</view></block><block wx:else><block wx:if="{{item.media==='tuwen'}}"><view class="icon _div data-v-73345096">图文</view></block></block></block></block></view></block></view></view><uni-load-more style="margin-bottom:25rpx;" vue-id="138d125e-1" status="{{loading_status}}" showIcon="{{true}}" iconType="{{true}}" class="data-v-73345096" bind:__l="__l"></uni-load-more></view></block><block wx:else><view style="text-align:center;" class="data-v-73345096"><image src="../../static/wudingdan.png" mode="aspectFit" class="data-v-73345096"></image></view></block>
+<block wx:if="{{!nodata}}">
+	<view class="container data-v-73345096">
+		<view class="allcourse data-v-73345096">
+			<image src="../../static/kechengtuijian.png" mode="aspectFit" class="data-v-73345096"></image>
+		</view>
+		<view class="course data-v-73345096">
+			<view class="course-list data-v-73345096">
+				<block wx:for="{{courseList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+					<view data-event-opts="{{[['tap',[['navigate',['$0','$1'],[[['courseList','',index,'id']],[['courseList','',index,'media']]]]]]]}}" class="course-list-item data-v-73345096" bindtap="__e">
+						<image src="{{HOST_URL+item.thumb}}" mode="aspectFit" class="data-v-73345096"></image><text class="data-v-73345096">{{item.menuname?item.menuname:item.zbtitle}}</text><text class="data-v-73345096">{{item.jianjie?item.jianjie:item.zbjianjie}}</text>
+						<view class="item-bottom data-v-73345096">
+							<block wx:if="{{item.media==='audio'||item.media==='video'}}">
+								<view class="item-bottom-left data-v-73345096">
+									<image src="../../static/book.png" mode="aspectFit" class="data-v-73345096"></image><text class="data-v-73345096">{{item.ksnum+"课时"}}</text>
+								</view>
+							</block>
+							<view class="item-bottom-right data-v-73345096"><text class="data-v-73345096">{{"￥"+item.price}}</text></view>
+						</view>
+						<block wx:if="{{item.media==='live'}}">
+							<view class="icon _div data-v-73345096">直播</view>
+						</block>
+						<block wx:else>
+							<block wx:if="{{item.media==='audio'}}">
+								<view class="icon _div data-v-73345096">音频</view>
+							</block>
+							<block wx:else>
+								<block wx:if="{{item.media==='video'}}">
+									<view class="icon _div data-v-73345096">视频</view>
+								</block>
+								<block wx:else>
+									<block wx:if="{{item.media==='tuwen'}}">
+										<view class="icon _div data-v-73345096">图文</view>
+									</block>
+								</block>
+							</block>
+						</block>
+					</view>
+				</block>
+			</view>
+		</view>
+		<uni-load-more style="margin-bottom:25rpx;" vue-id="138d125e-1" status="{{loading_status}}" showIcon="{{true}}" iconType="{{true}}" class="data-v-73345096" bind:__l="__l"></uni-load-more>
+	</view>
+</block>
+<block wx:else>
+	<view style="text-align:center;" class="data-v-73345096">
+		<image src="../../static/wudingdan.png" mode="aspectFit" class="data-v-73345096"></image>
+	</view>
+</block>

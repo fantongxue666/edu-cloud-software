@@ -1,1 +1,3 @@
-<view><web-view webview-styles="{{webviewStyles}}" src="https://www.zsffzxkc.cn"></web-view></view>
+<view>
+	<web-view webview-styles="{{webviewStyles}}" src="https://www.zsffzxkc.cn"></web-view>
+</view>

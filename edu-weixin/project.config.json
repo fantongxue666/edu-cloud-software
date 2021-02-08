@@ -5,11 +5,27 @@
 	},
 	"setting": {
 		"urlCheck": false,
-		"es6": false
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "",
-	"appid": "test",
+	"appid": "wxb44d77c8ddc418c6",
 	"projectname": "edu_weixin2",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},

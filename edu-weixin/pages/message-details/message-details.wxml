@@ -1,1 +1,15 @@
-<view class="container data-v-737046f2"><view class="message-details data-v-737046f2"><block wx:for="{{msgList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="message-details-list data-v-737046f2"><view class="item-left data-v-737046f2"><text class="data-v-737046f2">{{item.year}}</text><text class="data-v-737046f2">{{item.day}}</text><text class="data-v-737046f2">{{item.time}}</text></view><view class="item-right data-v-737046f2"><text class="data-v-737046f2">{{item.title}}</text><text class="data-v-737046f2">{{item.name}}</text></view></view></block></view><block wx:if="{{msgList.length===0}}"><view class="wuxiaoxi data-v-737046f2"><image src="../../static/wuxiaoxi.jpg" mode="aspectFit" class="data-v-737046f2"></image></view></block></view>
+<view class="container data-v-737046f2">
+	<view class="message-details data-v-737046f2">
+		<block wx:for="{{msgList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+			<view class="message-details-list data-v-737046f2">
+				<view class="item-left data-v-737046f2"><text class="data-v-737046f2">{{item.year}}</text><text class="data-v-737046f2">{{item.day}}</text><text class="data-v-737046f2">{{item.time}}</text></view>
+				<view class="item-right data-v-737046f2"><text class="data-v-737046f2">{{item.title}}</text><text class="data-v-737046f2">{{item.name}}</text></view>
+			</view>
+		</block>
+	</view>
+	<block wx:if="{{msgList.length===0}}">
+		<view class="wuxiaoxi data-v-737046f2">
+			<image src="../../static/wuxiaoxi.jpg" mode="aspectFit" class="data-v-737046f2"></image>
+		</view>
+	</block>
+</view>
