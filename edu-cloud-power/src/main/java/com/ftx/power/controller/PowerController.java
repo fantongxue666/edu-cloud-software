@@ -29,7 +29,7 @@ public class PowerController {
     @Autowired
     private PowerDao powerDao;
 
-        //微信code换取open_id
+        //微信code换取open_id0
         private String appID = "wxb44d77c8ddc418c6";
         private String appSecret = "a094b1e2d8d1b06de5bc577d88166467";
 
