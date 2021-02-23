@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b45c4626-6ed3-45dd-96cc-1912e15bc783" name="Default Changelist" comment="2021/2/4">
-      <change afterPath="$PROJECT_DIR$/edu-cloud-config-server/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edu-cloud-eureka/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edu-cloud-power/src/main/java/com/ftx/power/dao/PowerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edu-cloud-power/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edu-cloud-test/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edu-cloud-zuul/src/main/resources/rebel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-config-server/target/classes/com/ftx/configserver/ConfigServerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-eureka/target/classes/com/ftx/edu/EurekaApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-power/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edu-cloud-power/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-power/src/main/java/com/ftx/power/controller/PowerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-cloud-power/src/main/java/com/ftx/power/controller/PowerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-power/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/edu-cloud-power/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-power/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/edu-cloud-power/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-power/target/classes/com/ftx/power/controller/PowerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-cloud-power/target/classes/com/ftx/power/controller/PowerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-rain/target/classes/com/ftx/RainApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-rain/target/classes/com/ftx/config/AutoCodeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-rain/target/classes/com/ftx/config/Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-rain/target/classes/com/ftx/config/Generator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-rain/target/classes/com/ftx/config/JavaKind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-rain/target/classes/com/ftx/constant/APPEnums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-rain/target/classes/com/ftx/constant/GlobalSwagger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-cloud-rain/target/classes/com/ftx/constant/JsonObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/edu-weixin/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-weixin/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/edu-weixin/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-cloud-rain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edu-cloud-rain/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/edu-eureka/target/" />
     <ignored path="$PROJECT_DIR$/edu-rain/target/" />
@@ -49,13 +26,13 @@
     <session id="1391285067">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,7 +41,7 @@
           <entry key="java" value="42" />
           <entry key="md" value="20" />
           <entry key="properties" value="28" />
-          <entry key="xml" value="33" />
+          <entry key="xml" value="35" />
           <entry key="yml" value="8" />
         </counts>
       </usages-collector>
@@ -74,7 +51,7 @@
           <entry key="JAVA" value="42" />
           <entry key="Markdown" value="20" />
           <entry key="Properties" value="28" />
-          <entry key="XML" value="33" />
+          <entry key="XML" value="35" />
           <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
@@ -103,11 +80,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edu-cloud-eureka/src/main/java/com/ftx/edu/EurekaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/edu-cloud-rain/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1217">
+              <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-cloud-power/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="771">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -163,6 +160,7 @@
         <option value="$PROJECT_DIR$/edu-cloud-power/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/edu-cloud-power/src/main/java/com/ftx/power/dao/PowerDao.java" />
         <option value="$PROJECT_DIR$/edu-cloud-power/src/main/java/com/ftx/power/controller/PowerController.java" />
+        <option value="$PROJECT_DIR$/edu-cloud-rain/pom.xml" />
       </list>
     </option>
   </component>
@@ -230,6 +228,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,12 +237,20 @@
               <item name="educational_software" type="b2602c69:ProjectViewProjectNode" />
               <item name="educational_software" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="educational_software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educational_software" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-cloud-power" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="educational_software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="educational_software" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-cloud-rain" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,8 +260,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612776466410" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu-cloud-eureka" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614084014354" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -376,6 +384,7 @@
       <workItem from="1612745336745" duration="1365000" />
       <workItem from="1612768506847" duration="5222000" />
       <workItem from="1612776358585" duration="125000" />
+      <workItem from="1614078634369" duration="220000" />
     </task>
     <task id="LOCAL-00001" summary="2021/2/4">
       <created>1612430954283</created>
@@ -437,10 +446,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45707000" />
+    <option name="totallyTimeSpent" value="45927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -448,7 +458,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49790794" visible="true" weight="0.22252011" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49790794" visible="true" weight="0.22520107" />
       <window_info id="JRebel" order="7" sideWeight="0.50209206" side_tool="true" weight="0.21983914" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
@@ -649,22 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-cloud-rain/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="106" column="21" lean-forward="true" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-cloud-power/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edu-cloud-power/src/main/java/com/ftx/power/dao/PowerDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -700,6 +694,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-cloud-power/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-cloud-rain/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1217">
+          <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
         </state>
       </provider>
     </entry>

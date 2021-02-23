@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fafc1287-080b-4b47-b4fc-54e04437efd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ftx/power/controller/PowerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ftx/power/controller/PowerController.java" afterDir="false" />
-    </list>
+    <list default="true" id="fafc1287-080b-4b47-b4fc-54e04437efd9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +16,7 @@
     <session id="550533223">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.8" value="1" />
@@ -215,12 +213,12 @@
       <updated>1612776709938</updated>
       <workItem from="1612776712618" duration="1764000" />
       <workItem from="1613611412721" duration="3302000" />
-      <workItem from="1613722182061" duration="988000" />
+      <workItem from="1613722182061" duration="1139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6054000" />
+    <option name="totallyTimeSpent" value="6205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
