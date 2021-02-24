@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9725dd59-5310-4dc7-ab26-8a843cec4be5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../config-server-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../edu-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../edu-cloud-config-server/target/classes/com/ftx/configserver/ConfigServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-config-server/target/config-server-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-config-server/target/config-server-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-config-server/target/config-server-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-config-server/target/config-server-1.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-eureka/target/edu-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-eureka/target/edu-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-eureka/target/edu-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-eureka/target/edu-1.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-power/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-power/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-power/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-power/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ftx/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ftx/test/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ftx/test/TestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ftx/test/TestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-zuul/target/zuul-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-zuul/target/zuul-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-cloud-zuul/target/zuul-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../edu-cloud-zuul/target/zuul-1.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/app.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/common/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/common/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/common/runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/common/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseAudio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseAudio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseAudio.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseImg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseImg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseImg.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTable.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTable.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate0.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate1.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate10.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate11.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate2.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate3.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate4.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate5.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate6.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate7.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate8.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseTemplate9.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseVideo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseVideo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/components/wxParseVideo.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/parse.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/gaoyia-parse/parse.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-calendar/uni-calendar-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-calendar/uni-calendar-item.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-calendar/uni-calendar-item.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-calendar/uni-calendar-item.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-calendar/uni-calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-calendar/uni-calendar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-calendar/uni-calendar.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-calendar/uni-calendar.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-load-more/uni-load-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-load-more/uni-load-more.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-load-more/uni-load-more.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/components/uni-load-more/uni-load-more.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/confirm-order-form/confirm-order-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/confirm-order-form/confirm-order-form.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/confirm-order-form/confirm-order-form.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/confirm-order-form/confirm-order-form.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/copyright/copyright.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/copyright/copyright.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/copyright/copyright.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/course-details/course-details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/course-details/course-details.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/course-details/course-details.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/course-details/course-details.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/course-list/course-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/course-list/course-list.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/course-list/course-list.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/course-list/course-list.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/credits-exchange/credits-exchange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/credits-exchange/credits-exchange.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/credits-exchange/credits-exchange.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/credits-exchange/credits-exchange.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/estimate/estimate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/estimate/estimate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/estimate/estimate.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/estimate/estimate.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/guide/guide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/guide/guide.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/guide/guide.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/guide/guide.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/learn-time/learn-time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/learn-time/learn-time.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/learn-time/learn-time.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/learn-time/learn-time.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/list-page/list-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/list-page/list-page.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/list-page/list-page.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/list-page/list-page.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/message-details/message-details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/message-details/message-details.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/message-details/message-details.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/message-details/message-details.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/message/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/message/message.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/message/message.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/message/message.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/recruit/recruit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/recruit/recruit.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/recruit/recruit.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/recruit/recruit.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/sign-in/sign-in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/sign-in/sign-in.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/sign-in/sign-in.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/sign-in/sign-in.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tutor-introduced/tutor-introduced.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tutor-introduced/tutor-introduced.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tutor-introduced/tutor-introduced.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tutor-introduced/tutor-introduced.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tutor-list/tutor-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tutor-list/tutor-list.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tutor-list/tutor-list.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tutor-list/tutor-list.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tuwen/tuwen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tuwen/tuwen.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tuwen/tuwen.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/tuwen/tuwen.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/user/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/user/user.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/user/user.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/user/user.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/vip/vip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/vip/vip.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/vip/vip.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/vip/vip.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/wo-course/wo-course.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/wo-course/wo-course.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/wo-course/wo-course.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/wo-course/wo-course.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/wo-subscribe/wo-subscribe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/wo-subscribe/wo-subscribe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/wo-subscribe/wo-subscribe.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/pages/wo-subscribe/wo-subscribe.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/project.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/sitemap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/AI_bd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/STEM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/VIP-vip.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/account-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/anquan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/baobeiku.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/bianji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/bofang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/bot-c2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/caiyi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/choiceness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/choiceness1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/course.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/credit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/cuowu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/daoshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/default-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/dingyue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/dizhi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/dizhi-icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/dls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/duihao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/duihao1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/dujiajingxuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/fenleixuanzhong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/fenleixuanzhong1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/fenxiang-baise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/fenxiang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/fenxiang1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/fuzhibao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/gouwuche.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/h5_share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/heijiantou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/home1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/home2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/hot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/huanyipi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/jhm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/jia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/jiangshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/jiankang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/jiaoyu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/jishuzhichi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/js-yuanxing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/jszm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/jszm2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/jt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/kaoshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/kczc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/kechengjiangshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/kechengjianjie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/kechengtuijian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/kefu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/laba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/lanm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/live.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/liwu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/mall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/miaosha-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/miaosha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/money.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/msg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/msg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/my1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/my2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/myteam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/nopl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/noshouyi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/orders1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/paiming.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/password-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/password.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/pause-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/pause1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/pausebtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/peixunjigou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/pintuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/play-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/playbtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/price_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/qiandao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/qinggan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/qq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/qrcode.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/quanping.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/rementuijian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/rilibeijing-hengxian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/shanchu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/shijian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/shoucang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/shoucang1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/shouhou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/telphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/tgm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/tjjg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/tongzhi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/top-c1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/touxiangnvhai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/tui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/txinfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/user-beijing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/user-duihuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/user-jifen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/user-photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/user-qiandao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/user-shoucang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/user-vip-cut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/user-vip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/vip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/vipcode1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/viplogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/viplogo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/wechat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/weixinzhifu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/wenhao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/woyaotiwen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/wudingdan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/wuxiaoxi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/xiangxia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/xiangxia1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/xiangxia11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/xiangyou11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/xiaoxi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/xin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/xingqushenghuo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/xingxing-beijing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/xinli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/xueli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/youeryuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/yuanquan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/yundong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/yuyan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zaixiankefu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zaojiao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zhibo-guangbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zhibo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zhibojian-fenxiang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zhibojian-gengduo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zhibojian-huangzuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zhibojian-tiefen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zhibojian-zan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zhibozhong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zhifubao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zhuxiao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu-weixin/static/zixishi.png" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1308967744">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="Properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ftx/test/TestApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ftx/test/TestApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven-repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-cloud-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614163452975" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ftx.test.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9725dd59-5310-4dc7-ab26-8a843cec4be5" name="Default Changelist" comment="" />
+      <created>1614162728419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614162728419</updated>
+      <workItem from="1614162730801" duration="732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="732000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21983914" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info anchor="bottom" id="JRebel Console" sideWeight="0.50067025" side_tool="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.3895184" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="BPMNPalette" />
+      <window_info anchor="right" id="Maven Projects" weight="0.3297587" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ftx/test/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

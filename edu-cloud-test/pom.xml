@@ -18,6 +18,18 @@
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
     <dependencies>
+        <!--集成rain-shiro模块-->
+        <dependency>
+            <groupId>com.rain.shiro</groupId>
+            <artifactId>rain-shiro</artifactId>
+            <version>2.9</version>
+        </dependency>
+        <!--集成rain-platentity模块-->
+        <dependency>
+            <groupId>com.rain.platentity</groupId>
+            <artifactId>rain-platentity</artifactId>
+            <version>1.2</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

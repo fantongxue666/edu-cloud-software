@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/edu-vue-forward" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/edu-vue-forward/vue-admin-template" vcs="Git" />
   </component>
 </project>
