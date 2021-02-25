@@ -4,6 +4,8 @@
 **功能地址**
 - eureka服务注册中心：[http://localhost:8080/](http://localhost:8080/)
 - 消息总线更新Git云配置（post请求，可使用postman发送，端口是服务的端口）：[http://localhost:8082/actuator/bus-refresh](http://localhost:8082/actuator/bus-refresh)
+- test模块接口文档地址（后台管理系统接口）：[http://localhost:8083/api-test/doc.html](http://localhost:8083/api-test/doc.html)
+
 
 **各个服务说明**
 - [edu-cloud-eureka]()：服务注册中心（eureka）
